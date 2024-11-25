@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>岩意足球俱乐部</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('football-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background-color: rgba(0, 74, 173, 0.9); /* 半透明蓝色背景 */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 93, 193, 0.9);
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(0, 58, 140, 0.8);
+        }
+        .banner {
+            text-align: center;
+            padding: 50px 20px;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .banner h1 {
+            font-size: 2.5rem;
+        }
+        .content-section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1000px;
+            background-color: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #004aad;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        table th, table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        footer {
+            background-color: rgba(0, 74, 173, 0.9);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>岩意足球俱乐部</h1>
+        <p>Just Do It</p>
+    </header>
+
+    <nav>
+        <a href="#home">首页</a>
+        <a href="#schedule">赛程</a>
+        <a href="#players">球员名单</a>
+        <a href="player-details.html">球员介绍</a>
+        <a href="#contact">联系我们</a>
+    </nav>
+
+    <section id="home" class="banner">
+        <h1>欢迎来到岩意足球俱乐部</h1>
+        <p>感受足球的激情与魅力。</p>
+    </section>
+
+    <section id="schedule" class="content-section">
+        <h2>即将到来的比赛</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>日期</th>
+                    <th>对手</th>
+                    <th>地点</th>
+                    <th>时间</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-11-25</td>
+                    <td>睿饶</td>
+                    <td>主场</td>
+                    <td>19:00</td>
+                </tr>
+                <tr>
+                    <td>2024-11-29</td>
+                    <td>岩意2队</td>
+                    <td>主场</td>
+                    <td>19:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+ <section id="players" class="content-section">
+    <h2>球员名单</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>场上位置</th>
+                <th>球衣号码</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>沈程伟</td>
+                <td>边锋</td>
+                <td>4号</td>
+            </tr>
+            <tr>
+                <td>邵辰雷</td>
+                <td>中后卫</td>
+                <td>5号</td>
+            </tr>
+            <tr>
+                <td>阿达</td>
+                <td>边后卫</td>
+                <td>6号</td>
+            </tr>
+            <tr>
+                <td>汤裴龙</td>
+                <td>边锋</td>
+                <td>7号</td>
+            </tr>
+            <tr>
+                <td>张峰</td>
+                <td>中场</td>
+                <td>8号</td>
+            </tr>
+            <tr>
+                <td>西罗</td>
+                <td>中锋</td>
+                <td>9号</td>
+            </tr>
+            <tr>
+                <td>张慧君</td>
+                <td>中后卫</td>
+                <td>10号</td>
+            </tr>
+            <tr>
+                <td>唐杰</td>
+                <td>中场</td>
+                <td>14号</td>
+            </tr>
+            <tr>
+                <td>张倩</td>
+                <td>中后卫</td>
+                <td>17号</td>
+            </tr>
+            <tr>
+                <td>褚卫杰</td>
+                <td>前锋</td>
+                <td>18号</td>
+            </tr>
+            <tr>
+                <td>包成</td>
+                <td>边后卫</td>
+                <td>22号</td>
+            </tr>
+            <tr>
+                <td>小螃蟹</td>
+                <td>边锋</td>
+                <td>38号</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+     <section id="contact" class="content-section">
+        <h2>联系我们</h2>
+        <p>邮箱: contact@yanyi-fc.com</p>
+        <p>电话: +86 123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 岩意足球俱乐部. 版权所有.</p>
+    </footer>
+</body>
+</html>
